@@ -1,0 +1,17 @@
+.character-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.character-list li {
+    background-color: #292525;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #363535;
+    border-radius: 8px;
+}
+
+.character-list p {
+    margin: 5px 0;
+    color: #ada6a6;
+}

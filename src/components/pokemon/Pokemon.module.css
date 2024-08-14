@@ -1,0 +1,18 @@
+.pokemon_details {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.pokemon_details img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.pokemon_details p {
+    margin: 5px 0;
+    color: #8a8f94;
+}

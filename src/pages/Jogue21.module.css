@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.player,
+.dealer {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.message {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #d9534f;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
