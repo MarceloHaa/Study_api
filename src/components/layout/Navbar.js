@@ -26,6 +26,16 @@ function Navbar() {
                         Jogue 21
                     </Link>
                 </li>
+                <li>
+                    <Link to="/previsoes" className={styles.link}>
+                        Previsão
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/graficos" className={styles.link}>
+                        Gráficos
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
