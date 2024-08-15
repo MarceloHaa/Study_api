@@ -1,0 +1,79 @@
+.conversor-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #292525;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.conversor-container h1 {
+    text-align: center;
+    color: #ada6a6;
+    margin-bottom: 20px;
+}
+
+.conversor-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.conversor-container form div {
+    margin-bottom: 15px;
+}
+
+.conversor-container label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+.conversor-container select {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.conversor-container input[type='text'],
+.conversor-container input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.conversor-container button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.conversor-container button:hover {
+    background-color: #555;
+}
+
+.conversor-container .result {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .conversor-container {
+        padding: 15px;
+        margin: 20px;
+    }
+}
