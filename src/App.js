@@ -7,6 +7,7 @@ import HarryPotter from './pages/HarryPotter';
 import Jogue21 from './pages/Jogue21';
 import Previsao from './pages/Previsao';
 import Graficos from './pages/Graficos';
+import Conversor from './pages/Conversor';
 
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/jogue21" element={<Jogue21 />} />
                 <Route path="/previsoes" element={<Previsao />} />
                 <Route path="/graficos" element={<Graficos />} />
+                <Route path="/conversor" element={<Conversor />} />
             </Routes>
             <Footer />
         </Router>

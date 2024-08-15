@@ -36,6 +36,11 @@ function Navbar() {
                         Gráficos
                     </Link>
                 </li>
+                <li>
+                    <Link to="/conversor" className={styles.link}>
+                        Conversor
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
