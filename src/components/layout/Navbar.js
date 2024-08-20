@@ -41,6 +41,11 @@ function Navbar() {
                         Conversor
                     </Link>
                 </li>
+                <li>
+                    <Link to="/noticias" className={styles.link}>
+                        Notícias
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
