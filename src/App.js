@@ -8,6 +8,7 @@ import Jogue21 from './pages/Jogue21';
 import Previsao from './pages/Previsao';
 import Graficos from './pages/Graficos';
 import Conversor from './pages/Conversor';
+import Noticias from './pages/Noticias';
 
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/previsoes" element={<Previsao />} />
                 <Route path="/graficos" element={<Graficos />} />
                 <Route path="/conversor" element={<Conversor />} />
+                <Route path="/noticias" element={<Noticias />} />
             </Routes>
             <Footer />
         </Router>
