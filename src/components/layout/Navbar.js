@@ -46,6 +46,11 @@ function Navbar() {
                         Notícias
                     </Link>
                 </li>
+                <li>
+                    <Link to="/filmes" className={styles.link}>
+                        Filmes
+                    </Link>
+                </li>
             </ul>
         </nav>
     );
